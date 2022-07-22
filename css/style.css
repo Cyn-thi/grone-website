@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-family: 'Manrope';
+}
+
+.first-section h1 {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.first-section p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.fw {
+    font-weight: 800;
+}
+
+.accordion-button {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.accordion-header {
+    border-radius: 70px;
+}
+
+.dark-section, .approach, .meet, .questions {
+    background-color: black;
+}
+
+.dark-section h2, .approach h1, .meet h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.third-section h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+ h3, .third-section h3 {
+    font-weight: 700;
+}
+
+
+.cv {
+    background-color: #F6EDFE;
+}
+
+.solve {
+    font-size: 13px;
+}
+
+.st {
+    font-size: 33px;
+}
+
+.ap {
+    color: #7B00EA;
+    font-size: 21px;
+}
+
+.convinced h4 {
+    font-weight: 700;
+}
+
+
+
+.ct {
+    -webkit-text-stroke: 1px #7B00EA;
+    font-size: 40px;
+    
+}
+
+
+.row p {
+    font-size: 12px;
+}
+
+.convinced p, .convinced h5 {
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.flight p {
+    font-weight: 200;
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.traits p{
+    font-weight: 500;
+}
+
+.team h3 {
+    font-weight: 800px!important;
+    font-size: 30px;
+}
+
+
+
+@media (max-width: 1025px) {
+    .bigger {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .buttonss {
+        padding-left: 200px!important;
+    }
+}
+
+@media (max-width: 1441px) {
+    .buttonss {
+        padding-left: 330px;
+    }
+}
+
+@media (max-width: 769px) {
+    .second img {
+        width: 80%;
+    }
+
+    .cv {
+        margin-top: 10px!important;
+    }
+}
+
+@media (max-width: 426px) {
+    .buttonss {
+        padding: 0px!important;
+    }
+
+    .dark {
+        padding-left: 15px;
+    }
+}
