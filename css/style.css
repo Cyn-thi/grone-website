@@ -154,4 +154,12 @@ h4 {
     .sty {
         max-width: 100%!important;
     }
+    
+    .first-section h1 {
+        padding: 0px!important;
+    }
+
+    .rounded-pill {
+        padding: 5px!important;
+    }
 }
